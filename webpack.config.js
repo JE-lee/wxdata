@@ -1,9 +1,12 @@
 const path = require('path')
 module.exports = {
-  entry: './test/proxy.js',
+  entry: {
+    index: './src/index.js',
+    'test-proxy': './test/proxy.js'
+  },
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: 'test.js',
+    filename: '[name].js',
   },
   module: {
     rules: [

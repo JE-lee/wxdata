@@ -1,8 +1,10 @@
 {
-  "name": "wxdata",
-  "version": "1.0.0",
+  "name": "wx-reactdata",
+  "version": "1.0.2",
   "description": "",
-  "main": "index.js",
+  "keywords": ["微信小程序"],
+  "homepage": "https://github.com/JE-lee/wxdata",
+  "main": "./src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "test-proxy": "npm run build && qunit dist/test.js",
@@ -10,10 +12,8 @@
   },
   "author": "Lee",
   "license": "ISC",
-  "dependencies": {
-    "mocha": "^5.2.0"
-  },
   "devDependencies": {
+    "babel-core": "^6.26.3",
     "babel-loader": "^7.1.5",
     "babel-preset-env": "^1.7.0",
     "lodash": "^4.17.11",
