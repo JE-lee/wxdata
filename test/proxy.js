@@ -1,8 +1,8 @@
+
 import _proxy  from '../src/proxy'
 import _ from 'lodash'
 
 const assert = require('assert')
-
 let context = {
   data: {
     name: 'lee',
